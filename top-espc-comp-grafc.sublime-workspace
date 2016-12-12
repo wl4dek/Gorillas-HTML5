@@ -1,0 +1,877 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"va",
+				"value"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"cons",
+				"console.log()"
+			],
+			[
+				"get",
+				"getElementsByTagName〔function〕"
+			],
+			[
+				"emo",
+				"emoticons\t(?)"
+			],
+			[
+				"hide",
+				"hideElement"
+			],
+			[
+				"even",
+				"event"
+			],
+			[
+				"to",
+				"toggle"
+			],
+			[
+				"me",
+				"message\t(?)"
+			],
+			[
+				"consol",
+				"console.log()"
+			],
+			[
+				"emojioneList",
+				"emojioneList.slice(200"
+			],
+			[
+				"e",
+				"end\t(num)"
+			],
+			[
+				"st",
+				"start\t(num)"
+			],
+			[
+				"re",
+				"redirect_to"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"con",
+				"const"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"sho",
+				"shotName\t(?)"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"fil",
+				"filter( callbackfn: Function, thisArg?: any ): Array\tArray"
+			],
+			[
+				"s",
+				"splice(pos, amount)"
+			],
+			[
+				"emoj",
+				"emojione"
+			],
+			[
+				"spl",
+				"splice( start: int, deleteCount: int, items...: any ): Array\tArray"
+			],
+			[
+				"em",
+				"emojiName\t(?)"
+			],
+			[
+				"wid",
+				"width\tStyle CSS"
+			],
+			[
+				"nu",
+				"Number( value: any ): Number\tNumber"
+			],
+			[
+				"conso",
+				"console.log()"
+			],
+			[
+				"set",
+				"setTimeout〔function〕"
+			],
+			[
+				"tim",
+				"timeMileseconds\t(?)"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"pr",
+				"pos:r\tposition:relative"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"b",
+				"b\tbottom"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"data",
+				"dataAtualFormatada()"
+			],
+			[
+				"getM",
+				"getMonth()"
+			],
+			[
+				"le",
+				"length: int\tArray"
+			],
+			[
+				"typ",
+				"typeof〔keyword〕"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"getE",
+				"getElementById( elementId: DOMString ): Element\tDocument"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"def",
+				"defineSize(height)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"onre",
+				"onresize: EventHandler\tWindow"
+			],
+			[
+				"sen",
+				"sendMessage()"
+			],
+			[
+				"onke",
+				"onkeypress\tAttr"
+			],
+			[
+				"event",
+				"Event( type: DOMString, eventInitDict?: EventInit ): Event\tEvent"
+			],
+			[
+				"oncl",
+				"onclick: EventHandler\tWindow"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"first",
+				"firstElementChild: Element\tElement"
+			],
+			[
+				"class",
+				"classList: DOMTokenList\tElement"
+			],
+			[
+				"ver",
+				"vertical-text"
+			],
+			[
+				"ov",
+				"overflow-y"
+			],
+			[
+				"over",
+				"overflowY\tStyle CSS"
+			],
+			[
+				"col-",
+				"col-md-9"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"background",
+				"backgroundColor\tStyle CSS"
+			],
+			[
+				"poso",
+				"position\t{}"
+			],
+			[
+				"he",
+				"heightBuilding\t(num)"
+			],
+			[
+				"repe",
+				"repeatTexture\t{}"
+			],
+			[
+				"bb",
+				"bdb\tborder-bottom"
+			],
+			[
+				"parameters",
+				"Mockery\\Generator\\Parameter〔class〕"
+			],
+			[
+				"name",
+				"name=\"email"
+			],
+			[
+				"Response",
+				"Illuminate\\Routing\\ResponseFactory〔class〕"
+			],
+			[
+				"redirect",
+				"Illuminate\\Http\\RedirectResponse〔class〕"
+			],
+			[
+				"us",
+				"$user〔variable〕"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"pers",
+				"$person〔variable〕"
+			],
+			[
+				"req",
+				"$request〔variable〕"
+			],
+			[
+				"emai",
+				"email"
+			],
+			[
+				"phone",
+				"phones"
+			],
+			[
+				"ema",
+				"email"
+			],
+			[
+				"P",
+				"Phone"
+			],
+			[
+				"Cre",
+				"CreatePersonPost"
+			],
+			[
+				"C",
+				"CreatePersonPost"
+			],
+			[
+				"UR",
+				"URL_BASE\t(?)"
+			],
+			[
+				"email",
+				"emails"
+			],
+			[
+				"new",
+				"new_address"
+			],
+			[
+				"pa",
+				"parentElement"
+			],
+			[
+				"new_",
+				"new_email"
+			],
+			[
+				"parse",
+				"parseInt〔function〕"
+			],
+			[
+				"te",
+				"texture"
+			],
+			[
+				"rende",
+				"renderer\t(?)"
+			],
+			[
+				"par",
+				"parseFloat〔function〕"
+			],
+			[
+				"ma",
+				"math\t{}"
+			],
+			[
+				"crea",
+				"createBuilding(sizeX, sizeY, sizeZ, positionX, positionY, positionZ, repeatX, repeatY)"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"size",
+				"sizeZ\t(?)"
+			],
+			[
+				"siz",
+				"sizeY\t(?)"
+			],
+			[
+				"si",
+				"sizeY"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"form",
+				"form-control"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"checkoi",
+				"Git: Checkout Current File"
+			],
+			[
+				"git chec",
+				"Git: Checkout Current File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"new",
+				"File: New File Relative to Current View"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"name",
+				"File: Rename"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"cop",
+				"File: Copy Path as URI"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/wladek/Documentos/top-espc-comp-grafc",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js"
+	],
+	"file_history":
+	[
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/objects.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/script.js",
+		"/home/wladek/Documentos/web-chat-rails/app/assets/javascripts/chats.js",
+		"/home/wladek/Documentos/web-chat-rails/app/channels/room_channel.rb",
+		"/home/wladek/Documentos/web-chat-rails/app/channels/application_cable/connection.rb",
+		"/home/wladek/Documentos/web-chat-rails/app/views/chats/new.html.erb",
+		"/home/wladek/Documentos/web-chat-rails/app/assets/stylesheets/application.scss",
+		"/home/wladek/Documentos/web-chat-rails/app/assets/javascripts/channels/room.js",
+		"/home/wladek/Documentos/web-chat-rails/app/helpers/sessions_helper.rb",
+		"/home/wladek/Documentos/web-chat-rails/app/controllers/sessions_controller.rb",
+		"/home/wladek/Documentos/web-chat-rails/app/views/sessions/new.html.erb",
+		"/home/wladek/Documentos/web-chat-rails/app/controllers/chats_controller.rb",
+		"/home/wladek/.config/terminator/config",
+		"/home/wladek/Documentos/web-chat-rails/app/assets/javascripts/channels/navbar.js"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rotation",
+			"repeatTexture",
+			"size",
+			"rotation",
+			"size",
+			"createKong",
+			"create",
+			"imgEmoticons",
+			"message",
+			"mess",
+			"event",
+			"imgEmoticons",
+			"argument",
+			"inicio",
+			"fim",
+			"inicio",
+			"elemento",
+			"shotName",
+			"elemento",
+			"index",
+			"elemento",
+			"valor",
+			"ob",
+			"mountingMessage",
+			"parentNode",
+			"remove",
+			"toggle",
+			"event",
+			"dropdownToggle",
+			"none",
+			"opacity",
+			"hover",
+			".nav .open",
+			".nav .open > a",
+			"openDropDown",
+			".dropdown-toggle",
+			"dropdown-toggle",
+			"action",
+			"myFunction",
+			"session",
+			"user_name",
+			"user_id",
+			"session ativa!",
+			"email",
+			"email_field",
+			"session",
+			"current_user",
+			"d",
+			"messageReceived",
+			"tagMessage",
+			"emoji",
+			"emojioneList",
+			"shotName",
+			"slice",
+			"emojioneList",
+			"start",
+			");\n",
+			"start",
+			"Object.keys(emojione.emojioneList)",
+			"emojioneList",
+			"margin",
+			"emoticons",
+			"workPlaceEmoticons",
+			"emoticons",
+			"tagEmoticons",
+			"emoticons",
+			"nestEmojiList",
+			"emoticons",
+			"tagEmoticons",
+			"emoticons",
+			"opa",
+			"emoticons",
+			"a",
+			"state-danger-text",
+			"left",
+			"getAllEmojis",
+			"50px",
+			"left",
+			"prevEmoji",
+			"button",
+			">\n",
+			"emoticons",
+			"toImage",
+			"var",
+			"emojiName",
+			"emojioneList",
+			"emojione",
+			"name",
+			"index",
+			"svg",
+			"25px",
+			"emojioneList",
+			"emoticons",
+			"emojiName",
+			"emoticons",
+			"var",
+			"getAllEmojis",
+			"25",
+			"showElement",
+			"document.getElementById('emoticons').style.opacity",
+			"document.getElementById('emoticons').opacity",
+			"toggleEmojis",
+			"showElement",
+			"hideElement",
+			"terminou",
+			"false",
+			"show",
+			"delay",
+			"toggleEmojis",
+			"show",
+			"showElement",
+			"hide",
+			"hideElement",
+			"emoticons",
+			"document",
+			"hide",
+			"hideElement",
+			"hide",
+			"delay",
+			"hide",
+			"delay",
+			"getAllEmojis",
+			"hide",
+			"true",
+			"emoticons",
+			"timeMileseconds",
+			"left",
+			"emoticons"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "top-espc-comp-grafc.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"appl",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"appli",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				".scss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"applica",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"view/chat",
+				"app/views/chats/new.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"ob",
+				"js/objects.js"
+			],
+			[
+				"menu",
+				"views/inlcudes/menu.ejs"
+			],
+			[
+				"footer",
+				"views/inlcudes/footer.ejs"
+			],
+			[
+				"head",
+				"views/inlcudes/head.ejs"
+			],
+			[
+				"style.scs",
+				"public/stylesheets/style.scss"
+			],
+			[
+				"sassjs",
+				"node_modules/sass-graph/sass-graph.js"
+			],
+			[
+				"nav",
+				"node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss"
+			],
+			[
+				"navbar",
+				"node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss"
+			],
+			[
+				"head.ej",
+				"views/partials/head.ejs"
+			],
+			[
+				"bootstrap.s",
+				"node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss"
+			],
+			[
+				"chatcontroller",
+				"app/controllers/chats_controller.rb"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"personlis",
+				"resources/views/person/list.blade.php"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documentos/web-chat-rails/web-chat-rails.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 418.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
