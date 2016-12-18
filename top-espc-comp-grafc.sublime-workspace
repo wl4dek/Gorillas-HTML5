@@ -4,6 +4,166 @@
 		"selected_items":
 		[
 			[
+				"sta",
+				"startTime\t(?)"
+			],
+			[
+				"start",
+				"startTime\t(num)"
+			],
+			[
+				"si",
+				"sin(number)"
+			],
+			[
+				"altura",
+				"alturaPredio\t[]"
+			],
+			[
+				"al",
+				"altura\t(num)"
+			],
+			[
+				"rende",
+				"renderer\t{}"
+			],
+			[
+				"altu",
+				"alturaPredio\t(num)"
+			],
+			[
+				"terr",
+				"terra"
+			],
+			[
+				"pre",
+				"predio"
+			],
+			[
+				"pred",
+				"predios〔function〕"
+			],
+			[
+				"me",
+				"mesh\t(?)"
+			],
+			[
+				"request",
+				"requestAnimationFrame"
+			],
+			[
+				"ca",
+				"camera"
+			],
+			[
+				"Mesh",
+				"Mesh(a, b)"
+			],
+			[
+				"TR",
+				"THREE\t{}"
+			],
+			[
+				"w",
+				"widows\tStyle CSS"
+			],
+			[
+				"sets",
+				"setSize(a, b, c)"
+			],
+			[
+				"set",
+				"setPixelRatio(a)"
+			],
+			[
+				"setC",
+				"setClearColor(a, c)"
+			],
+			[
+				"anima",
+				"animate"
+			],
+			[
+				"for",
+				"forca\t(?)"
+			],
+			[
+				"tim",
+				"timeStamp: DOMTimeStamp\tEvent"
+			],
+			[
+				"fo",
+				"forca\t(?)"
+			],
+			[
+				"ba",
+				"balay\t(num)"
+			],
+			[
+				"get",
+				"getTime〔function〕"
+			],
+			[
+				"typ",
+				"typeof"
+			],
+			[
+				"type",
+				"typeof〔keyword〕"
+			],
+			[
+				"key",
+				"keys( o: Object ): string[]\tObject"
+			],
+			[
+				"bal",
+				"balay\t(?)"
+			],
+			[
+				"con",
+				"cos(number)"
+			],
+			[
+				"Dat",
+				"Date"
+			],
+			[
+				"Date",
+				"Date(ms)"
+			],
+			[
+				"load",
+				"loader〔variable〕"
+			],
+			[
+				"console",
+				"console.log()"
+			],
+			[
+				"sc",
+				"scene"
+			],
+			[
+				"pla",
+				"player"
+			],
+			[
+				"o",
+				"object"
+			],
+			[
+				"obje",
+				"objetos"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"ma",
+				"matrix"
+			],
+			[
 				"hei",
 				"heightBuilding\t(num)"
 			],
@@ -12,16 +172,8 @@
 				"value"
 			],
 			[
-				"for",
-				"for\tfor (…) {…}"
-			],
-			[
 				"cons",
 				"console.log()"
-			],
-			[
-				"get",
-				"getElementsByTagName〔function〕"
 			],
 			[
 				"emo",
@@ -38,10 +190,6 @@
 			[
 				"to",
 				"toggle"
-			],
-			[
-				"me",
-				"message\t(?)"
 			],
 			[
 				"consol",
@@ -66,10 +214,6 @@
 			[
 				"a",
 				"auto"
-			],
-			[
-				"con",
-				"const"
 			],
 			[
 				"op",
@@ -124,14 +268,6 @@
 				"console.log()"
 			],
 			[
-				"set",
-				"setTimeout〔function〕"
-			],
-			[
-				"tim",
-				"timeMileseconds\t(?)"
-			],
-			[
 				"bo",
 				"border"
 			],
@@ -162,10 +298,6 @@
 			[
 				"le",
 				"length: int\tArray"
-			],
-			[
-				"typ",
-				"typeof〔keyword〕"
 			],
 			[
 				"ri",
@@ -364,16 +496,8 @@
 				"texture"
 			],
 			[
-				"rende",
-				"renderer\t(?)"
-			],
-			[
 				"par",
 				"parseFloat〔function〕"
-			],
-			[
-				"ma",
-				"math\t{}"
 			],
 			[
 				"crea",
@@ -390,61 +514,54 @@
 			[
 				"siz",
 				"sizeY\t(?)"
-			],
-			[
-				"si",
-				"sizeY"
-			],
-			[
-				"m",
-				"margin-top"
-			],
-			[
-				"btn",
-				"btn-primary"
-			],
-			[
-				"form",
-				"form-control"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "js/script.js",
-			"settings":
-			{
-				"buffer_size": 3667,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 670,
+				"buffer_size": 651,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/matematica.js",
+			"file": "js/app.js",
 			"settings":
 			{
-				"buffer_size": 307,
+				"buffer_size": 1305,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/objects.js",
+			"file": "js/objetos.js",
 			"settings":
 			{
-				"buffer_size": 1595,
+				"buffer_size": 2324,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/fisica.js",
+			"settings":
+			{
+				"buffer_size": 681,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/wladek/Downloads/duelo_canhoes/main.cpp",
+			"settings":
+			{
+				"buffer_size": 9379,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -456,16 +573,20 @@
 	"command_palette":
 	{
 		"height": 357.0,
-		"last_filter": "",
+		"last_filter": "rein",
 		"selected_items":
 		[
 			[
-				"menu",
-				"View: Toggle Menu"
+				"rein",
+				"Indentation: Reindent Lines"
 			],
 			[
 				"checkoi",
 				"Git: Checkout Current File"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
 			],
 			[
 				"git chec",
@@ -536,7 +657,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -557,12 +678,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/wladek/Documentos/top-espc-comp-grafc"
+		"/home/wladek/Documentos/top-espc-comp-grafc",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js"
 	],
 	"file_history":
 	[
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/animate.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/init.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/main.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/app.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/index.html",
+		"/home/wladek/Documentos/janela.py",
 		"/home/wladek/Documentos/top-espc-comp-grafc/app.json",
+		"/home/wladek/Downloads/duelo_canhoes/main.cpp",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/clock.js",
 		"/home/wladek/Documentos/top-espc-comp-grafc/js/objects.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/matematica.js",
 		"/home/wladek/Documentos/top-espc-comp-grafc/js/script.js",
 		"/home/wladek/Documentos/web-chat-rails/app/assets/javascripts/chats.js",
 		"/home/wladek/Documentos/web-chat-rails/app/channels/room_channel.rb",
@@ -594,134 +725,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"predio",
-			"reapetTexture",
-			"o",
-			"argument",
-			"true",
-			"size",
-			"sizeKong",
-			"decimalCases",
-			"casasDeciaml",
-			"Iniciar",
-			"var",
-			"limit",
-			"limitSup",
-			"rand",
-			"objects",
-			"performance",
+			"angulo",
+			"8",
+			"agora",
+			";\n",
+			"agora",
+			"50",
+			"startTime",
 			"time",
-			"object",
-			"children",
-			"2B04F2F7-1C12-4CA8-B10E-068AE6F73B71",
-			"FACFC50F-87E7-46C3-B59B-35BE0C7B0808",
-			"map",
-			"FACFC50F-87E7-46C3-B59B-35BE0C7B0808",
-			"false",
-			"rotation",
-			"repeatTexture",
-			"size",
-			"rotation",
-			"size",
-			"createKong",
-			"create",
-			"imgEmoticons",
-			"message",
-			"mess",
-			"event",
-			"imgEmoticons",
-			"argument",
-			"inicio",
-			"fim",
-			"inicio",
-			"elemento",
-			"shotName",
-			"elemento",
-			"index",
-			"elemento",
-			"valor",
-			"ob",
-			"mountingMessage",
-			"parentNode",
-			"remove",
-			"toggle",
-			"event",
-			"dropdownToggle",
-			"none",
-			"opacity",
-			"hover",
-			".nav .open",
-			".nav .open > a",
-			"openDropDown",
-			".dropdown-toggle",
-			"dropdown-toggle",
-			"action",
-			"myFunction",
-			"session",
-			"user_name",
-			"user_id",
-			"session ativa!",
-			"email",
-			"email_field",
-			"session",
-			"current_user",
-			"d",
-			"messageReceived",
-			"tagMessage",
-			"emoji",
-			"emojioneList",
-			"shotName",
-			"slice",
-			"emojioneList",
-			"start",
-			");\n",
-			"start",
-			"Object.keys(emojione.emojioneList)",
-			"emojioneList",
-			"margin",
-			"emoticons",
-			"workPlaceEmoticons",
-			"emoticons",
-			"tagEmoticons",
-			"emoticons",
-			"nestEmojiList",
-			"emoticons",
-			"tagEmoticons",
-			"emoticons",
-			"opa",
-			"emoticons",
-			"a",
-			"state-danger-text",
-			"left",
-			"getAllEmojis",
-			"50px",
-			"left",
-			"prevEmoji",
-			"button",
-			">\n",
-			"emoticons",
-			"toImage",
+			"running",
+			"banana",
+			"lancamento",
+			"objetos",
+			"agora",
+			"animate",
+			"sin",
+			"vento",
+			"3",
+			"141592",
+			"cos",
+			"mesh",
+			"createBanana",
+			"jogador",
+			"banana",
+			"predio",
+			"material",
+			"geometry",
+			"texture",
+			"terra",
+			"altura",
+			"scene",
+			"alturaPredio",
+			"gorilas",
+			"alturaPredio",
+			"altura",
+			"alturaPredio",
+			"altura",
 			"var",
-			"emojiName",
-			"emojioneList",
-			"emojione",
-			"name",
-			"index",
-			"svg",
-			"25px",
-			"emojioneList",
-			"emoticons",
-			"emojiName",
-			"emoticons",
+			"alturaPredio",
+			"gorilas",
+			"alturaPredio",
+			"altura",
+			"alturaPredio",
+			"20",
+			"2000",
+			"alturaPredio",
+			"setClearColorHex",
+			"altura",
+			"alturaPredio",
+			"altura",
+			"125",
+			"terra",
+			"predio",
+			"BoxBufferGeometry",
+			"600",
+			"150",
+			"mesh",
+			"app",
+			"mesh",
+			"scene",
+			"Dngth",
+			"camera",
+			"scene",
+			"renderer",
 			"var",
-			"getAllEmojis",
-			"25",
-			"showElement",
-			"document.getElementById('emoticons').style.opacity",
-			"document.getElementById('emoticons').opacity",
-			"toggleEmojis",
-			"showElement",
-			"hideElement"
+			"texture",
+			"mesh",
+			"geometry",
+			"app",
+			"renderer",
+			"scene",
+			"camera",
+			"renderer",
+			"v",
+			"render",
+			"rende",
+			"render",
+			"agora",
+			"startTime",
+			"trajetoriaBala",
+			"anima",
+			"animate",
+			"vento",
+			"starTime",
+			"tempoDecorrido",
+			"bala",
+			"posicaoInicialX",
+			"trajetoria",
+			"trajetoriaBala",
+			"gorila",
+			"Move_Objeto",
+			"autoStart",
+			"undefined",
+			"vento",
+			"bala",
+			"Move_Objeto",
+			"Tempo_Decorrido",
+			"timeStart",
+			"startTime",
+			"setNewTime",
+			"time",
+			"timeStart",
+			"getTimeNow",
+			"setTime",
+			"getTimeNow",
+			"startTime",
+			"prototype",
+			"getTimeNow",
+			"fullName",
+			"prototype",
+			"Employee",
+			"Clock",
+			"Employee",
+			"getTimeNow",
+			"timeStart",
+			"undefined",
+			"eventos",
+			"MEUAPP",
+			"fullName",
+			"signedNDA",
+			"startDate",
+			"firstName",
+			"Employee",
+			"Clock",
+			"Employee",
+			"Clock",
+			"clock",
+			"close",
+			"Clock"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -739,86 +870,114 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3667,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2986,
-								2986
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1609.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 670,
+						"buffer_size": 651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								210
+								560,
+								560
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "js/matematica.js",
+					"buffer": 1,
+					"file": "js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 307,
+						"buffer_size": 1305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								304,
-								304
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/objetos.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2208,
+								2208
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 511.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/fisica.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
 							]
 						],
 						"settings":
@@ -831,38 +990,37 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "js/objects.js",
+					"buffer": 4,
+					"file": "/home/wladek/Downloads/duelo_canhoes/main.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1595,
+						"buffer_size": 9379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								562,
-								562
+								4258,
+								4258
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
+							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1818.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
