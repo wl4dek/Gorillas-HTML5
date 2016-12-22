@@ -4,17 +4,17 @@
 		<title>JOGO HTML5</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<style>
-		body {
-			font-family: Helvetica, Arial, sans-serif;
-			font-size: 12px;
-			background-color: #000;
-			margin: 0px;
-			overflow: hidden;
-		}
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
+		<div class="input-group">
+			<label>Angulo</label>
+			<input type="number" class="form-control" name="angulo" id="angulo"> <br>
+			<label>Força</label>
+			<input type="number" class="form-control" name="forca" id="forca"> <br>
+			<button id="jogar">JOGAR</button>
+		</div>
+
 		<script type="text/javascript" src="js/three.min.js"></script>
 		<script type="text/javascript" src="js/objetos.js"></script>
 		<script type="text/javascript" src="js/fisica.js"></script>

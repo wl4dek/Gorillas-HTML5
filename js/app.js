@@ -1,7 +1,8 @@
 var camera, scene, renderer;
-var mesh, jogador = 1, banana;
-var forca = 15, angulo = -80;
+var mesh, jogador = 0, banana;
+var forca, angulo;
 var agora = 0.0001;
+var lancar = false;
 
 init();
 animate();
@@ -18,6 +19,7 @@ function init() {
 	terra(scene);
 	gorilas(scene);
 	banana = createBanana(scene, jogador);
+	posicaoInicialBanana(banana);
 
 	renderer = new THREE.WebGLRenderer();
 	renderer.setPixelRatio( window.devicePixelRatio );
@@ -42,11 +44,28 @@ function animate() {
 	/*mesh.rotation.x += 0.005;
 	mesh.rotation.y += 0.01;*/
 	// console.log(agora);
-	lancamento(banana, agora);
-	agora += 0.01;
+	if (lancar && forca && angulo) {
+		lancamento(banana, forca, angulo, agora);
+		agora += 0.01;
+	}else{
+		agora = 0;
+	}
 
 	/*clock.oldTime = clock.startTime;
 	clock.startTime = new Date().getTime();
 	clock.elapsedTime = clock.startTime - clock.oldTime;*/
 	renderer.render( scene, camera );
 }
+
+document.getElementById('jogar').addEventListener('click', function () {
+	lancar = true;
+	forca = document.getElementById('forca').value;
+	angulo = document.getElementById('angulo').value;
+});
+
+
+document.addEventListener('keypress', function(e) {
+	if (e.key === "Enter") {
+		lancar = true;
+	}
+});

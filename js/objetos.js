@@ -56,8 +56,17 @@ function createBanana (scene, jogador = 0) {
   geometry = new THREE.BoxBufferGeometry( 50, 50, 50);
   material = new THREE.MeshBasicMaterial({ color: 0x0000FF });
   banana = new THREE.Mesh( geometry );
-  banana.position.x = (jogador === 0) ? 1700 : -1700;
-  banana.position.y = alturaPredio[jogador] + 75;
   scene.add( banana );
   return banana;
+}
+
+function posicaoInicialBanana(banana) {
+  banana.position.y = alturaPredio[jogador] + 75;
+  if (jogador) {
+    banana.position.x = -1700;
+    jogador = 0;
+  }else{
+    banana.position.x = 1700;
+    jogador = 1;
+  }
 }
