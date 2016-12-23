@@ -7,17 +7,20 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
+		<div class="win">
+			O Jogador 1 VENCEU!
+		</div>
 		<div class="input-group">
 			<label>Angulo</label>
-			<input type="number" class="form-control" name="angulo" id="angulo"> <br>
+			<input type="number" class="form-control" name="angulo" id="angulo" min="0"> <br>
 			<label>Força</label>
-			<input type="number" class="form-control" name="forca" id="forca"> <br>
+			<input type="number" class="form-control" name="forca" id="forca" min="0"> <br>
 			<button id="jogar">JOGAR</button>
 		</div>
 
 		<script type="text/javascript" src="js/three.min.js"></script>
-		<script type="text/javascript" src="js/objetos.js"></script>
 		<script type="text/javascript" src="js/fisica.js"></script>
+		<script type="text/javascript" src="js/objetos.js"></script>
 		<script type="text/javascript" src="js/app.js"></script>
 	</body>
 </html>

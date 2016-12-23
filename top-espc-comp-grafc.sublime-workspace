@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"go",
+				"gorilas"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"pred",
+				"predio"
+			],
+			[
+				"pre",
+				"predio"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"ter",
+				"terminou"
+			],
+			[
+				"de",
+				"delta"
+			],
+			[
+				"tim",
+				"time"
+			],
+			[
+				"cl",
+				"clock"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
 				"getEle",
 				"getElementsByTagName( localName: DOMString ): HTMLCollection\tElement"
 			],
@@ -42,14 +82,6 @@
 			[
 				"terr",
 				"terra"
-			],
-			[
-				"pre",
-				"predio"
-			],
-			[
-				"pred",
-				"predios〔function〕"
 			],
 			[
 				"me",
@@ -94,10 +126,6 @@
 			[
 				"for",
 				"forca\t(?)"
-			],
-			[
-				"tim",
-				"timeStamp: DOMTimeStamp\tEvent"
 			],
 			[
 				"fo",
@@ -216,10 +244,6 @@
 				"start\t(num)"
 			],
 			[
-				"re",
-				"redirect_to"
-			],
-			[
 				"a",
 				"auto"
 			],
@@ -330,10 +354,6 @@
 			[
 				"def",
 				"defineSize(height)"
-			],
-			[
-				"fun",
-				"function"
 			],
 			[
 				"l",
@@ -494,31 +514,47 @@
 			[
 				"new_",
 				"new_email"
-			],
-			[
-				"parse",
-				"parseInt〔function〕"
-			],
-			[
-				"te",
-				"texture"
-			],
-			[
-				"par",
-				"parseFloat〔function〕"
-			],
-			[
-				"crea",
-				"createBuilding(sizeX, sizeY, sizeZ, positionX, positionY, positionZ, repeatX, repeatY)"
-			],
-			[
-				"po",
-				"position"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 1582,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/fisica.js",
+			"settings":
+			{
+				"buffer_size": 1015,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 826,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/objetos.js",
+			"settings":
+			{
+				"buffer_size": 2436,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -616,7 +652,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -637,19 +673,23 @@
 	},
 	"expanded_folders":
 	[
-		"/home/wladek/Documentos/top-espc-comp-grafc"
+		"/home/wladek/Documentos/top-espc-comp-grafc",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js"
 	],
 	"file_history":
 	[
+		"/home/wladek/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/objetos.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/fisica.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/js/app.js",
+		"/home/wladek/Documentos/top-espc-comp-grafc/index.html",
+		"/home/wladek/Downloads/duelo_canhoes/main.cpp",
 		"/home/wladek/Documentos/top-espc-comp-grafc/css/style.css",
 		"/home/wladek/Documentos/top-espc-comp-grafc/js/animate.js",
 		"/home/wladek/Documentos/top-espc-comp-grafc/js/init.js",
 		"/home/wladek/Documentos/top-espc-comp-grafc/js/main.js",
-		"/home/wladek/Documentos/top-espc-comp-grafc/js/app.js",
-		"/home/wladek/Documentos/top-espc-comp-grafc/index.html",
 		"/home/wladek/Documentos/janela.py",
 		"/home/wladek/Documentos/top-espc-comp-grafc/app.json",
-		"/home/wladek/Downloads/duelo_canhoes/main.cpp",
 		"/home/wladek/Documentos/top-espc-comp-grafc/js/clock.js",
 		"/home/wladek/Documentos/top-espc-comp-grafc/js/objects.js",
 		"/home/wladek/Documentos/top-espc-comp-grafc/js/matematica.js",
@@ -669,7 +709,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -684,6 +724,54 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"width",
+			"bana",
+			"gorila",
+			"height",
+			"lancamento",
+			"predio",
+			"gorila",
+			"gorilas",
+			"gorila",
+			"let",
+			"angulaRad",
+			"translate_tabs_to_spaces",
+			"let",
+			"predios",
+			"true",
+			"predios",
+			"texture",
+			"geometry",
+			"material",
+			"altura",
+			"predios",
+			"predio",
+			"gorila",
+			"altura",
+			"material",
+			"geometry",
+			"texture",
+			"camera",
+			"LightShadow",
+			"Predio",
+			"predio",
+			"var",
+			"predio",
+			"Predio",
+			"predio",
+			"Predio",
+			"predio",
+			"150",
+			"50",
+			"1700",
+			"animate",
+			"requestAnimationFrame",
+			"agora",
+			"getDelta",
+			"start",
+			"time",
+			"clock",
+			"argument",
 			"Força",
 			"Angulo",
 			"angulo",
@@ -763,55 +851,7 @@
 			"app",
 			"renderer",
 			"scene",
-			"camera",
-			"renderer",
-			"v",
-			"render",
-			"rende",
-			"render",
-			"agora",
-			"startTime",
-			"trajetoriaBala",
-			"anima",
-			"animate",
-			"vento",
-			"starTime",
-			"tempoDecorrido",
-			"bala",
-			"posicaoInicialX",
-			"trajetoria",
-			"trajetoriaBala",
-			"gorila",
-			"Move_Objeto",
-			"autoStart",
-			"undefined",
-			"vento",
-			"bala",
-			"Move_Objeto",
-			"Tempo_Decorrido",
-			"timeStart",
-			"startTime",
-			"setNewTime",
-			"time",
-			"timeStart",
-			"getTimeNow",
-			"setTime",
-			"getTimeNow",
-			"startTime",
-			"prototype",
-			"getTimeNow",
-			"fullName",
-			"prototype",
-			"Employee",
-			"Clock",
-			"Employee",
-			"getTimeNow",
-			"timeStart",
-			"undefined",
-			"eventos",
-			"MEUAPP",
-			"fullName",
-			"signedNDA"
+			"camera"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -829,8 +869,127 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/fisica.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/objetos.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -865,6 +1024,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -999,7 +1162,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 318.0,
+	"side_bar_width": 361.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

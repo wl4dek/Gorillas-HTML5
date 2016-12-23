@@ -1,7 +1,8 @@
 var alturaPredio = [];
 
 function predios(scene) {
-  var texture, geometry, material, altura;
+  var texture, geometry, material, altura, predios = [];
+
   for (var i = 0; i <= 24; i++) {
     texture = new THREE.TextureLoader().load( 'img/textura_predio.jpg' );
     texture.wrapS = THREE.RepeatWrapping;
@@ -12,34 +13,38 @@ function predios(scene) {
     predio = new THREE.Mesh( geometry, material );
     if (i % 2 === 0) {
       predio.position.x = -i*100;
-      (i === 18) ? alturaPredio.push(altura) : null;
+      if (i === 18) alturaPredio.push(altura);
     }else{
       predio.position.x = i*100 + 100;
-      (i === 17) ? alturaPredio.push(altura) : null;
+      if (i === 17) alturaPredio.push(altura);
     }
     predio.position.y = altura / 2;
     texture.repeat.set( 1, (altura / 200 > 1) ? parseInt(altura / 200) : (altura / 200) );
     scene.add( predio );
+    predios.push(predio);
   }
+  return predios;
 }
 
 function gorilas (scene) {
-  /*texture = new THREE.TextureLoader().load( 'img/textura_predio.jpg' );
-  texture.wrapS = THREE.RepeatWrapping;
-  texture.wrapT = THREE.RepeatWrapping;*/
+  var texture, geometry, material, gorila, gorilas = [];
+
   for (var i = 0; i < 2; i++) {
-    geometry = new THREE.BoxBufferGeometry( 150, 150, 150);
+    geometry = new THREE.BoxBufferGeometry( 100, 100, 100);
     material = new THREE.MeshBasicMaterial({ color: 0x0000FF });
-    predio = new THREE.Mesh( geometry );
-    predio.position.x = (i === 0) ? 1800 : -1800;
-    predio.position.y = alturaPredio[i] + 75;
+    gorila = new THREE.Mesh( geometry );
+    gorila.position.x = (i === 0) ? 1800 : -1800;
+    gorila.position.y = alturaPredio[i] + 50;
     /*texture.repeat.set( 1, (altura / 200 > 1) ? parseInt(altura / 200) : (altura / 200) );*/
-    scene.add( predio );
+    scene.add( gorila );
+    gorilas.push(gorila);
   }
+  return gorilas;
 }
 
 function terra (scene) {
-  var texture, geometry, material;
+  var texture, geometry, material, terra;
+
   texture = new THREE.TextureLoader().load( 'img/textura_rua.jpg' );
   texture.wrapS = THREE.RepeatWrapping;
   texture.wrapT = THREE.RepeatWrapping;
@@ -51,9 +56,10 @@ function terra (scene) {
   scene.add( terra );
 }
 
-function createBanana (scene, jogador = 0) {
+function createBanana (scene, jogador) {
   var texture, geometry, material, banana;
-  geometry = new THREE.BoxBufferGeometry( 50, 50, 50);
+
+  geometry = new THREE.CubeGeometry(50, 50, 50, 1, 1, 1);
   material = new THREE.MeshBasicMaterial({ color: 0x0000FF });
   banana = new THREE.Mesh( geometry );
   scene.add( banana );
@@ -61,12 +67,13 @@ function createBanana (scene, jogador = 0) {
 }
 
 function posicaoInicialBanana(banana) {
-  banana.position.y = alturaPredio[jogador] + 75;
+  banana.position.y = alturaPredio[jogador] + 130;
   if (jogador) {
-    banana.position.x = -1700;
+    banana.position.x = -1850;
     jogador = 0;
   }else{
-    banana.position.x = 1700;
+    banana.position.x = 1850;
     jogador = 1;
   }
+  showInputGroup();
 }

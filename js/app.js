@@ -3,6 +3,8 @@ var mesh, jogador = 0, banana;
 var forca, angulo;
 var agora = 0.0001;
 var lancar = false;
+var predios, gorilas;
+var inputGroup = document.getElementsByClassName('input-group')[0];
 
 init();
 animate();
@@ -15,11 +17,12 @@ function init() {
 
 	scene = new THREE.Scene();
 
-	predios(scene);
+	predios = predios(scene);
 	terra(scene);
-	gorilas(scene);
+	gorilas = gorilas(scene);
 	banana = createBanana(scene, jogador);
 	posicaoInicialBanana(banana);
+	console.log(gorilas[0].position);
 
 	renderer = new THREE.WebGLRenderer();
 	renderer.setPixelRatio( window.devicePixelRatio );
@@ -41,9 +44,7 @@ function onWindowResize() {
 renderer.render( scene, camera );
 function animate() {
 	requestAnimationFrame( animate );
-	/*mesh.rotation.x += 0.005;
-	mesh.rotation.y += 0.01;*/
-	// console.log(agora);
+
 	if (lancar && forca && angulo) {
 		lancamento(banana, forca, angulo, agora);
 		agora += 0.01;
@@ -51,16 +52,28 @@ function animate() {
 		agora = 0;
 	}
 
-	/*clock.oldTime = clock.startTime;
-	clock.startTime = new Date().getTime();
-	clock.elapsedTime = clock.startTime - clock.oldTime;*/
 	renderer.render( scene, camera );
+}
+
+function hideInputGroup() {
+	inputGroup.style.opacity = 0;
+}
+
+function showInputGroup() {
+	inputGroup.style.opacity = 1;
+}
+
+function fimJogo(jogador) {
+	var win = document.getElementsByClassName('win')[0];
+	win.innerHTML = "O jogador " + jogador + " VENCEU!";
+	win.style.opacity = 1;
 }
 
 document.getElementById('jogar').addEventListener('click', function () {
 	lancar = true;
 	forca = document.getElementById('forca').value;
 	angulo = document.getElementById('angulo').value;
+	hideInputGroup();
 });
 
 
